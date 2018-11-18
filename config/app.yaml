@@ -1,0 +1,14 @@
+# The Data Source Name for the database
+# Make sure you override this in production with the environment variable: RESTFUL_DSN
+dsn: "user:pass@(serverULR)/database?charset=utf8&parseTime=true&loc=Local"
+# dsn: "root:Camaron1@(192.168.1.130:3306)/db_tpm_office_prod?charset=utf8&parseTime=true&loc=Local"
+
+# These are secret keys used for JWT signing and verification.
+# Make sure you override these keys in production by the following environment variables:
+#   RESTFUL_JWT_VERIFICATION_KEY
+#   RESTFUL_JWT_SIGNING_KEY
+jwt_verification_key: "Yr5NnyKJ7&#vK8^46a_!2w$s6^M3U#ha"
+jwt_signing_key: "Yr5NnyKJ7&#vK8^46a_!2w$s6^M3U#ha"
+# Uncomment the following line and set an appropriate JWT signing method, if needed
+# The default signing method is HS256.
+#jwt_signing_method: "HS256"
